@@ -1,0 +1,224 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.header{
+    height: 200px;
+    background-image: linear-gradient(to right, #100f2f 20%, black);
+    display: flex;
+}
+.block1{
+    display: flex;
+}
+.logo{
+    width: 180px;
+    height: 150px;
+    margin: 20px 30px auto;
+}
+.h1{
+    font-size: 55px;
+    font-weight: 100;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1.2px;
+    margin: 70px 10px auto;
+}
+.span{
+    color: #03A0CB;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nav ul{
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  background-image: linear-gradient(to left, dodgerblue , black);
+  letter-spacing: 1.3px;
+}
+.nav li{
+    display: inline-block;
+    letter-spacing: 1.3px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 15px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.4s;
+    letter-spacing: 2px;
+    border-top: 1.5px solid #02C6B4;
+}
+.nav a:focus{
+    background: #0285C6;
+    border-radius: 0px 0px 0px 0px;
+}
+.nav a:hover{
+    background: #0285C6;
+    transition: 0.4s;
+    border-radius: 0px 0px 0px 0px;
+}
+/*.Home*/
+.home{
+    background-color: rgba(0,0,0,0.8);
+    height: 900px;
+    overflow: hidden;
+    z-index: 10;
+}
+.box-display{
+    display: flex;
+}
+.box1{
+    width: 350px;
+    height: 200px;
+    margin: 0px auto;
+}
+.box2{
+    width: 350px;
+    height: 200px;
+    margin: 0px auto;
+}
+.box3{    
+    width: 350px;
+    height: 200px;
+    margin: 0px auto;
+}
+.h2{
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: 1.3px;
+    color: whitesmoke;
+    font-size: 40px;
+}
+i{
+    color: #02C6B4;
+}
+.h3{
+    color: white;
+    font-weight: normal;
+    font-size: 25px;
+    letter-spacing: 1.3px;
+    line-height: 40px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tel{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.tel:hover{
+    color:  #02C6B4;
+    transition: 0.4s;
+}
+.h4{
+    font-weight: normal;
+    font-size: 30px;
+    text-align:  center;
+    letter-spacing: 1.3px;
+    color: white;
+    margin-top: 150px;
+}
+.inf-site{
+    font-size: 22px;
+    font-weight: normal;
+    letter-spacing: 1.3px;
+    line-height: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: white;
+}
+/*main*/
+main{
+    height: 170px;
+    background: black;
+    background-size: cover;
+    overflow: hidden;
+}
+.h5{
+    color: #767877;
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: 1.3px;
+    font-size: 21px;
+}
+.foot-cal{
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1.4px;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h6{
+    text-align: center;
+    color: #01A553;
+    font-size: 23px;
+}
+h6:hover{
+    color:#05C866;
+}
+.lang{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.am{
+    width: 25px;
+    height: 15px;
+    margin: 5px 5px auto;
+}
+.am:hover{
+    padding-bottom: 4px;
+    transition: 0.3s;
+}
+.rus{
+    width: 25px;
+    height: 15px;
+    margin: 5px 5px auto;
+}
+.rus:hover{
+    padding-bottom: 4px;
+    transition: 0.3s;
+}
+.eng{
+    width: 24px;
+    height: 15px;
+    margin: 5px 5px auto;
+}
+.eng:hover{
+    padding-bottom: 4px;
+    transition: 0.3s;
+}
+/*Mobile App Web Mobile Ipad ... Version */
+@media (max-width: 1024px) {
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        box-sizing: content-box;
+    }
+    .box-display{
+        display: block;
+    }
+    .home{
+        background-color: rgba(0,0,0,0.8);
+        height: 1480px;
+        overflow: hidden;
+        z-index: 10;
+    }
+    .h4{
+        margin-top: 60px;
+    }
+    .box2,.box3{
+        margin-top: 130px;
+    }
+    .nav ul{
+        background-image: linear-gradient(to left, dodgerblue 10% , black);
+    }
+    .box1{
+        margin-top: 20px;
+    }
+}
